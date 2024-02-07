@@ -1,0 +1,43 @@
+// @mixin flexCenter($direction) {
+//   height: 100vh;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center
+//   flex-direction: $direction;
+// }
+
+// header {
+//   @include flexCenter();
+
+//   background: lightblue;
+//   height: 100vh;
+//   color: $textColor;
+//   button {
+//     background: $primaryBtn;
+//     &::after {
+//       content: "hellloooo";
+//     }
+//   }
+// }
+
+// @mixin flexCenter($direction, $background) {
+//   height: 100vh;
+//   display: flex;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: $direction;
+//   background: $background;
+// }
+
+header {
+  height: 100vh;
+  color: $textColor;
+  background: lightblue;
+  button {
+    background: $primaryBtn;
+    &::after {
+      content: "hellooo";
+    }
+  }
+}
